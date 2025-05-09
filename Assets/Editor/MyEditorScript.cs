@@ -31,7 +31,7 @@ class MyEditorScript
         }
     }
 
-    private static void ForceGPUUnsupportedSettings()
+    static void ForceGPUUnsupportedSettings()
     {
         // Get active lighting settings or create a new one
         LightingSettings lightingSettings = new LightingSettings();
